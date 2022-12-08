@@ -1,0 +1,28 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.20"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "SmartLock Backend",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chamfrado/SmartLock.git"
+  },
+  "keywords": [
+    "lock"
+  ],
+  "author": "Chamfrado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chamfrado/SmartLock/issues"
+  },
+  "homepage": "https://github.com/Chamfrado/SmartLock#readme"
+}
